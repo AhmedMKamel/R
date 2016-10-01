@@ -40,3 +40,4 @@ summary(femdata)
 summary(maledata)
 
 #install.package(c("ggplot2", "devtools", "silidify"))
+install.package(devtools)
