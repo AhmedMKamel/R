@@ -1,4 +1,7 @@
-# R
+# GIT imp commands
+Git push R master
+Git pull R master
+
 #load file
 load(file.choose())
 
