@@ -35,3 +35,6 @@ pie(count, main= "Gender")
 
 #femdata
 summary(femdata)
+
+#Summary males
+summary(maledata)
