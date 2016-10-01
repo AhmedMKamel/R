@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "#load file\nload(file.choose())\n\n#load project file\nsetwd(\"F:/Gdrive/R\")\nload(\"Project1.Rdata\")\n\n#Laptop\nsetwd(\"E:/Google drive/R\")\nload(\"Project1.Rdata\")\n\n#save\nsave.image(file.choose())\n\n#attach file\nattach(data)\n\n#Gender\nclass(Gender)\nmean(Age)\nrm(list = ls())\n\n#install ePiR\ninstall.packages(\"epiR\")\n\n#remove package\nremove.packages(\"epiR\")\n\n#bar plot percentage with labels\nbarplot(percentgender, main = \"Gender distribution \", xlab = \"Gender\", ylab = \"%\", las=1 )\n#horizontal plot\nbarplot(percentgender, main = \"Gender Distribution\", xlab= \"Gender\", ylab= \"Percentage\", las=1, horiz = T)\n#pie chart\npie(count, main= \"Gender\")\n\n#femdata\nsummary(femdata)\n\n#Summary males\nsummary(maledata)\n",
+    "created" : 1475356878107.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "912342726",
+    "id" : "414925F1",
+    "lastKnownWriteTime" : 1475356985,
+    "last_content_update" : 1475356985,
+    "path" : "F:/Gdrive/R/Script.md",
+    "project_path" : "Script.md",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "markdown"
+}
